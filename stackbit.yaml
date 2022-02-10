@@ -1,7 +1,6 @@
 stackbitVersion: ~0.4.0
-ssgName: nextjs
-nodeVersion: "12"
-buildCommand: npm run build
+ssgName: unibit
+buildCommand: unibit build
 publishDir: output
 staticDir: static
 uploadDir: images
