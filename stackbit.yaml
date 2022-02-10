@@ -14,15 +14,15 @@ metadata:
   title: Planty
   description: An e-commerce theme powered by Snipcart
   author: Snipcart
-  authorURL: 'https://snipcart.com'
+  authorURL: "https://snipcart.com"
   images:
     small: images/demo-256x192.png
     large: images/demo-1024x768.png
 stackbit_banner:
   show_banner: true
   name: Planty
-  create_url: 'https://app.stackbit.com/create?theme=planty'
-  github_url: 'https://github.com/stackbithq/stackbit-theme-planty'
+  create_url: "https://app.stackbit.com/create?theme=planty"
+  github_url: "https://github.com/stackbithq/stackbit-theme-planty"
 models:
   config:
     type: config
@@ -150,7 +150,7 @@ models:
     hideContent: true
     layout: category
     folder: category
-    urlPath: 'category/{slug}'
+    urlPath: "category/{slug}"
     fields:
       - type: string
         name: title
@@ -373,7 +373,7 @@ models:
     type: page
     label: Product
     layout: product
-    urlPath: 'products/{slug}'
+    urlPath: "products/{slug}"
     folder: products
     fields:
       - type: string
@@ -442,7 +442,7 @@ models:
       - type: string
         name: title
         label: Title
-        description: 'The page title that goes into the <title> tag'
+        description: "The page title that goes into the <title> tag"
         default: ""
       - type: string
         name: description
@@ -467,7 +467,7 @@ models:
       - type: list
         name: extra
         label: Extra
-        description: 'Additional definition for specific meta tags such as open-graph, twitter, etc.'
+        description: "Additional definition for specific meta tags such as open-graph, twitter, etc."
         items:
           type: object
           labelField: name
